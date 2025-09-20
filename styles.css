@@ -1,0 +1,104 @@
+/* General Body Styling */
+body {
+    background-color: #92dce5;
+    font-family: 'Arial', sans-serif; /* Custom font */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Footer Styling */
+.header-footer {
+    background-color: orangered;
+    color: rgb(236, 231, 241);
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Navigation Styling */
+.nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+    background-color: #444;
+    }
+
+.nav li {
+    margin: 0 15px;
+}
+
+.nav a:hover {
+  background-color: yellow; 
+  color: red;  
+ }
+
+.nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+/* Content Section Styling */
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Main Content Styling */
+.main-content {
+    width: 60%;
+    background-color: #0fcb5a;
+    margin: 10px;
+    padding: 20px;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 30%;
+    background-color: #595ebb;
+    margin: 10px;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar:hover {
+    background-color: #FFFF00;
+}
+
+/* Input Focus Styling */
+input[type="text"] {
+    width: 150px;
+    transition: width 0.3s ease;
+}
+
+input[type="text"]:focus {
+    width: 250px;
+}
+
+/* right bar h3 styling */
+
+h3 {
+     text-decoration: underline; /* Underlines the text */
+     text-align: left;         /* Aligns the text to the left */
+   }
+
+
+ul {
+  text-align: left;
+}
+
+li {
+  text-align: left;
+}
+
+/* form row stlying */
+.form-rows {
+  display: flex;
+  flex-direction: column; /* This stacks the child elements vertically */
+  align-items: flex-start; /* This aligns all content to the left */
+  gap: 10px; /* Adds spacing between each form row */
+}
